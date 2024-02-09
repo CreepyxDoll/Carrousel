@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Caroussel</title>
+    <link rel="stylesheet" href="caroussel.css">
+    <script src="caroussel.js"></script>
+
+</head>
+
+<body>
+    <h1>The Flemme</h1>
+    <div id="caroussel">
+        <img src="Vieux monsieur caroussel.avif" alt="On commence" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    <div id="caroussel">
+        <img src="etirement2.jpg" alt="On s'étire" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    <div id="caroussel">
+        <img src="clavier3.gif" alt="On y va" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    <div id="caroussel">
+        <img src="Pleure-flemme.jpg" alt="Pitié j'ai la flemme" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    <div id="caroussel">
+        <img src="caroussel.jpg" alt="J'ai enfin fini" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    <div id="caroussel">
+        <img src="yes.jpg" alt="J'ai finit" id="caroussel">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+</body>
+
+</html>
